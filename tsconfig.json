@@ -1,0 +1,21 @@
+{
+  "include": ["packages/**.ts"],
+  "exclude": ["node_modules", "distribution"],
+  "compileOnSave": true,
+  "compilerOptions": {
+    "charset": "utf-8",
+    "incremental": true,
+    "tsBuildInfoFile": "tsconfig.incremental.json",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "outDir": "distribution",
+    "pretty": true,
+    "target": "es5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "alwaysStrict": true,
+    "sourceMap": true
+  }
+}
