@@ -1,0 +1,1 @@
+export { useTextReducer } from '../use-text-reducer';
